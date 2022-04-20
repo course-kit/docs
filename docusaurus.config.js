@@ -10,9 +10,9 @@ const config = {
   tagline: 'Dinosaurs are cool',
   url: 'https://docs.coursekit.dev',
   baseUrl: '/',
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/icon.png',
   organizationName: 'coursekit', // Usually your GitHub org/user name.
   projectName: 'docs', // Usually your repo name.
 
@@ -101,7 +101,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} CourseKit`,
       },
       prism: {
         theme: lightCodeTheme,
