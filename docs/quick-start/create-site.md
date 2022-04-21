@@ -17,7 +17,9 @@ By far the easiest way to do this is to use either our React or Vue template. Th
 
 Go to the GitHub repository of either template linked above. Above the file list, click **Use this template**.
 
+![create-site-1](/img/create-site-1.png)
+
 Choose a name for your repo and select either private or public (don't worry - none of your private course content will be in the repo). 
 
-Click **Create** and you will now have your own site template.
+Click **Create** and you will now have your own copy of the site template!
 

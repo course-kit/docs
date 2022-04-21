@@ -14,6 +14,8 @@ By the end of the guide, you'll have a course site deployed to Netlify that disp
 
 Here's a demo of the finished product: [https://coursekit-react-template.netlify.app](https://coursekit-react-template.netlify.app)
 
+![quick-start-1](/img/quick-start-1.png)
+
 ## Requirements
 
 To use this guide you’ll need the following:

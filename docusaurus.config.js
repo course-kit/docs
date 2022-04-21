@@ -49,7 +49,24 @@ const config = {
             label: 'Introduction',
           },
           {
-            href: 'https://github.com/course-kit/docs',
+            type: 'doc',
+            docId: 'quick-start/quick-start',
+            position: 'left',
+            label: 'Quick start guide',
+          },
+          {
+            type: 'doc',
+            docId: 'javascript-client',
+            position: 'left',
+            label: 'JavaScript client',
+          },
+          {
+            href: 'https://coursekit.dev',
+            label: 'CourseKit',
+            position: 'right',
+          },
+          {
+            href: 'https://github.com/course-kit',
             label: 'GitHub',
             position: 'right',
           },
@@ -64,6 +81,10 @@ const config = {
               {
                 label: 'Quick start guide',
                 to: '/quick-start',
+              },
+              {
+                label: 'JavaScript client',
+                to: '/client',
               },
             ],
           },
@@ -84,12 +105,12 @@ const config = {
             title: 'More',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
+                label: 'CourseKit',
+                href: 'https://coursekit.dev',
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/course-kit',
               },
             ],
           },
