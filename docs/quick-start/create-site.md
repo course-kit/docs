@@ -2,7 +2,7 @@
 sidebar_position: 3
 ---
 
-# Create site from template
+# Create site from a template
 
 CourseKit provides a "headless API" meaning that you'll need to provide a frontend site to display your courses.
 
@@ -19,7 +19,7 @@ Go to the GitHub repository of either template linked above. Above the file list
 
 ![create-site-1](/img/create-site-1.png)
 
-Choose a name for your repo and select either private or public (don't worry - none of your private course content will be in the repo). 
+Choose a name for your repo and select either *private* or *public* (public is generally fine as none of your private course content will be in the repo). 
 
 Click **Create** and you will now have your own copy of the site template!
 
