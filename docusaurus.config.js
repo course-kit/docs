@@ -7,7 +7,6 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'CourseKit',
-  tagline: 'Dinosaurs are cool',
   url: 'https://docs.coursekit.dev',
   baseUrl: '/',
   onBrokenLinks: 'warn',
@@ -24,8 +23,6 @@ const config = {
         docs: {
           routeBasePath: '/',
           sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
-          editUrl: 'https://github.com/course-kit/docs/',
         },
         blog: false,
         theme: {
@@ -65,8 +62,8 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: 'Quick start guide',
+                to: '/quick-start',
               },
             ],
           },
@@ -74,16 +71,12 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
                 label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                href: 'https://discord.gg/ugXJFkw6hv',
               },
               {
                 label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                href: 'https://twitter.com/CourseKitDev',
               },
             ],
           },
