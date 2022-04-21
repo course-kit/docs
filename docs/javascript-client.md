@@ -200,6 +200,25 @@ user.logoutRedirect({ courseId: 'co84mfyq' })
 
 Will do nothing if the user is not logged in.
 
+#### `enrollRedirect(courseId: string): void`
+
+Redirects the user to the enrollment page for the course (if it is free) or to the checkout page (if it has a price). Does nothing if the user is already enrolled in the course or if your account has a custom payment gateway.
+
+Also note that if the `devMode` option in the client constructor is true, the user will be redirected to the development URL of the course or school.
+
+Example:
+
+```javascript
+// Redirects to registration page.
+user.enrollRedirect('co84mfyq')
+```
+
+| Option name | Required? | Type | Description |
+|-|-|-|-|
+| courseId | no | string | The ID of the course that the user should be redirected to after logout.  |
+
+Will do nothing if the user is not logged in.
+
 #### `isAuthenticated(): boolean`
 
 Returns a boolean indicating whether or not the user is logged in.
