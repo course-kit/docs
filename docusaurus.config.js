@@ -35,6 +35,18 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      metadata: [
+        { property: "og:type", content: "website" },
+        { property: "og:url", content: "https://docs.coursekit.dev/" },
+        { property: "og:title", content: "Introduction | CourseKit" },
+        { property: "og:description", content: "CourseKit is a developer-first platform for creating online courses." },
+        { property: "og:image", content: "/img/meta.png" },
+        { property: "twitter:card", content: "summary_large_image" },
+        { property: "twitter:url", content: "https://docs.coursekit.dev/" },
+        { property: "twitter:title", content: "Introduction | CourseKit" },
+        { property: "twitter:description", content: "CourseKit is a developer-first platform for creating online courses." },
+        { property: "twitter:image", content: "/img/meta.png" },
+      ],
       navbar: {
         title: 'CourseKit Docs',
         logo: {

@@ -1,6 +1,7 @@
 ---
 slug: /
 sidebar_position: 1
+title: CourseKit
 ---
 
 # Introduction
@@ -50,7 +51,7 @@ Unlike other course platforms, CourseKit only provides must-have features for co
 Features like video hosting, email marketing, or more complex eCommerce can easily be added as integrations. We think this is a better approach because:
 
 - You only pay for what you need
-- You can use services that already do a good job like Stripe, Vimeo, ConvertKit
+- You can use services that already do a good job like Stripe (eCommerce), [Sandpack](https://sandpack.codesandbox.io/) (code examples), Vimeo (video), and ConvertKit (marketing automation)
 
 ## Examples
 
