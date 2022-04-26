@@ -62,18 +62,13 @@ const config = {
           },
           {
             href: 'https://coursekit.dev',
-            label: 'CourseKit',
+            label: 'Create account',
             position: 'right',
           },
           {
             label: 'Blog',
             href: 'https://coursekit.dev/blog',
             position: 'right'
-          },
-          {
-            href: 'https://github.com/course-kit',
-            label: 'GitHub',
-            position: 'right',
           },
         ],
       },
@@ -110,7 +105,7 @@ const config = {
             title: 'More',
             items: [
               {
-                label: 'CourseKit',
+                label: 'Create account',
                 href: 'https://coursekit.dev',
               },
               {
