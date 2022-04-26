@@ -1,7 +1,7 @@
 ---
 slug: /
 sidebar_position: 1
-title: CourseKit
+title: "Developer-first course hosting platform"
 ---
 
 # Introduction
