@@ -261,11 +261,33 @@ Rendered markdown. `null` if the user is not logged in and meta property of cour
 
 Returns the lesson ID of the next incomplete lesson of a specified course or `null` if the user is not logged in.
 
+#### `nextIncompleteLesson: LessonSummary | null`
+
+Returns the next incomplete lesson summary of a specified course or `null` if the user is not logged in.
+
 #### `progress: float | null`
 
 Returns a number between 0 and 1 with decimal points indicating the amount of the specified course that is complete. For example, in a 4 lesson course if 1 lesson is complete this method would return `0.25`.
 
 Returns `null` if the user is not logged in.
+
+#### `createdAt: string`
+
+Returns a date string with timezone.
+
+#### `updatedAt: string`
+
+Returns a date string with timezone.
+
+### Methods
+
+#### `getNextLesson(currentLessonId: string): LessonSummary | null`
+
+Returns lesson summary after the one specified. Returns `null` if no next lesson found.
+
+#### `getPreviousLesson(currentLessonId: string): LessonSummary | null`
+
+Returns lesson summary before the one specified. Returns `null` if no previous lesson found.
 
 ## LessonSummary object
 
@@ -348,6 +370,14 @@ Raw lesson content. `null` if the user is not logged in and meta property of les
 #### `html: string | null`
 
 Rendered markdown. `null` if the user is not logged in and meta property of lesson `public.content` is not `true`.
+
+#### `createdAt: string`
+
+Returns a date string with timezone.
+
+#### `updatedAt: string`
+
+Returns a date string with timezone.
 
 ### Methods
 
