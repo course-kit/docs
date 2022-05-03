@@ -257,10 +257,6 @@ Raw course content. `null` if the user is not logged in and meta property of cou
 
 Rendered markdown. `null` if the user is not logged in and meta property of course `public.content` is not `true`.
 
-#### `nextLessonId: string | null`
-
-Returns the lesson ID of the next incomplete lesson of a specified course or `null` if the user is not logged in.
-
 #### `nextIncompleteLesson: LessonSummary | null`
 
 Returns the next incomplete lesson summary of a specified course or `null` if the user is not logged in.
